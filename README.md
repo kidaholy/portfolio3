@@ -1,4 +1,7 @@
-![Screenshot 2024-08-16 213714](https://github.com/user-attachments/assets/74987c39-4246-425e-901d-d7d6db86bf79)# portfolio2
-I t is my second portfolio and adding every css styles as much as posible
-# phone interface
-![image](https://github.com/user-attachments/assets/82d2b1d2-ae73-4c97-9efd-0b0f808d7863)
+#my third portfolio
+It is very interactive and every single projects are available 
+![Screenshot 2024-09-10 031249](https://github.com/user-attachments/assets/59437f97-070d-4be9-884e-8c8a31fd7a67)
+#My skill list
+![Screenshot 2024-09-10 031316](https://github.com/user-attachments/assets/06d82cf6-2421-456d-a488-9e8faf849b5e)
+#My real world projects
+![Screenshot 2024-09-10 031335](https://github.com/user-attachments/assets/430169fc-d92e-41e0-9096-d79959d3aa02)
