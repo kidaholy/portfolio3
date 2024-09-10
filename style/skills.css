@@ -1,0 +1,30 @@
+.skills-and-expert {
+  background-color: #333;
+  color: lightgoldenrodyellow;
+  margin: 20px;
+}
+
+h2 {
+  text-align: center;
+  font-weight: 600;
+  padding: 20px;
+}
+
+.skills {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-group {
+  margin: 20px 0;
+  display: flex;
+}
+
+.btn-group button {
+  margin: 20px 20px;
+}
+
+.btn-group img {
+  width: 300px;
+  height: 200px;
+}

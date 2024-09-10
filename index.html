@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style/style.css">
+  <link rel="icon" type="image/x-icon" href="./assets/Logo1.png">
+  <link rel="stylesheet" href="./style/about.css">
+  <link rel="stylesheet" href="./style/general.css">
+  <link rel="stylesheet" href="./style/header.css">
+  <link rel="stylesheet" href="./style/skills.css">
+  <link rel="stylesheet" href="./style/contact.css">
+  <link rel="stylesheet" href="./style/project.css">
+  <link rel="stylesheet" href="./style/education.css">
+  <title>Portfolio</title>
+</head>
+
+<body>
+  <section class="container">
+    <nav>
+      <div class="nav-container">
+        <a href="#" class="nav-brand"><img class="logo" src="./assets/Logo1.png" alt="logo" width="50px"
+            border-radius="50%">My
+          portfolio</a>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle-input" hidden>
+        <label for="nav-toggle" class="nav-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+        <ul class="nav-menu">
+          <li><a class="about-me-text" href="#about">About Me</a></li>
+          <li><a href="#skill">Skills</a></li>
+          <li><a href="#project">projects</a></li>
+          <li><a href="#contact">Contact Me</a></li>
+        </ul>
+      </div>
+    </nav>
+  </section>
+
+  <section id="about" class="about">
+    <div class="about-title">
+      <h1>About Me</h1>
+    </div>
+    <div class="about-me">
+      <div class="about-text">
+        <p>My name is Kidus Yosef and I am a front-end developer and I'm learning back-end, I'm undergraduate student in
+          Ethiopia, Wolikte
+          university in Information system and I'm working on a final project for my graduation with my peers and I'm
+          interested in programming with peers.
+        </p>
+      </div>
+      <div class="about-image"><img class="my-pic" src="./assets/thumbnail.png" alt="my-photo" width="400px">
+      </div>
+    </div>
+  </section>
+
+  <section id="skill" class="skills-and-expert">
+    <h2>Skills, Experience and Education</h2>
+    <h2>Skills</h2>
+    <div class="skills">
+      <img src="./assets/4375017_js_logo_node_icon.svg" alt="node.js" width="50px">
+      <img src="./assets/652582_code_develop_framework_javascript_jquery_icon.svg" alt="jQuery" width="50px">
+      <img src="./assets/icons8-bootstrap.svg" alt="bootstrap">
+      <img src="./assets/icons8-css.svg" alt="css">
+      <img src="./assets/icons8-html.svg" alt="html">
+      <img src="./assets/icons8-js.svg" alt="javascript">
+      <img src="./assets/icons8-python.svg" alt="python">
+    </div>
+
+
+    <div class="btn-group">
+      <button type="button" class="btn btn-outline-warning dropdown-toggle" data-bs-toggle="dropdown"
+        aria-expanded="true">
+        Experience
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">collage project</a></li>
+        <li>
+          <hr class="dropdown-divider">
+        </li>
+        <li><a class="dropdown-item" href="#">On going project soon ...</a></li>
+        <li>
+          <hr class="dropdown-divider">
+        </li>
+        <li><a class="dropdown-item" href="#">Oracle Academy</a></li>
+        <li>
+          <hr class="dropdown-divider">
+        </li>
+        <li><a class="dropdown-item" href="#"><img src="./assets/certificate-oracle.jpg" alt="certificate-oracle"
+              width="400px" height="300px;"></a></li>
+      </ul>
+
+      <button type="button" class="btn btn-outline-danger dropdown-toggle" data-bs-toggle="dropdown"
+        aria-expanded="true">
+        Education
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Undergraduate student</a></li>
+        <li>
+          <hr class="dropdown-divider">
+        </li>
+        <li><a class="dropdown-item" href="#">Wolkite University</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="project">
+    <div class="title-project">
+      <h1>Projects</h1>
+    </div>
+    <div class="projects">
+      <a rel="noopener" href="https://kidaholy.github.io/my-gallery/" target="_blank">
+        <figure class="image-description">
+          <img class="project-item" src="./assets/project1.png" alt="project one">
+          <figcaption>My gallery javascript animation</figcaption>
+        </figure>
+      </a>
+      <a rel="noopener" href="https://github.com/kidaholy" target="_blank">
+        <figure class="image-description">
+          <img class="project-item" src="./assets/Github-profile.png" alt="project two">
+          <figcaption>My github</figcaption>
+        </figure>
+      </a>
+      <a rel="noopener" href="https://kidaholy.github.io/dice-games/" target="_blank">
+        <figure class="image-description">
+          <img class="project-item" src="./assets/dice.png" alt="project three">
+          <figcaption>dice game</figcaption>
+        </figure>
+      </a>
+      <a rel="noopener" href="https://kidaholy.github.io/Drum-kit/" target="_blank">
+        <figure class="image-description">
+          <img class="project-item" src="./assets/drum.png" alt="project four">
+          <figcaption>drum kit</figcaption>
+        </figure>
+      </a>
+      <a rel="noopener" href="https://kidaholy.github.io/simon-game/" target="_blank">
+        <figure class="image-description">
+          <img class="project-item" src="./assets/simon.png" alt="project five">
+          <figcaption>simon game</figcaption>
+        </figure>
+      </a>
+      <a rel="noopener" href="https://kidaholy.github.io/snake-game/" target="_blank">
+        <figure class="image-description">
+          <img class="project-item" src="./assets/snake.png" alt="project six">
+          <figcaption>snake game</figcaption>
+        </figure>
+      </a>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>How can you get me</h2>
+    <div class="media">
+      <ul>
+        <li><a rel="noopener" href="https://www.linkedin.com/in/kidus-yosef-b6b4a7265/" target="blank"><img
+              align="center"
+              src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg"
+              alt="LinkedIn" height="40" width="30" /></a></li>
+        <li><a rel="noopener" href="mailto:kidayos2014@gmail.com" target="_blank"><img src="./assets/gmail-icon.svg"
+              alt="email-icon" width="30px" height="40"></a></li>
+        <li><a rel="noopener" href="https://github.com/kidaholy" target="_blank"><img
+              src="./assets/github-142-svgrepo-com.svg" alt="github-icon" width="30" height="40"></a></li>
+      </ul>
+    </div>
+  </section>
+
+  <footer class="footer">
+    @2024 copyright &copy; reserved
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

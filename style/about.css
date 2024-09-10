@@ -1,0 +1,96 @@
+.about {
+  margin: 20px;
+  padding: 0;
+  padding-bottom: 300px;
+  background-color: #333;
+}
+
+.about-me {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.about-title {
+  text-align: center;
+  font-size: 26px;
+  margin: 20px;
+  margin-top: 0;
+  padding: 20px;
+}
+
+.about-text {
+  font-family: cursive;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 0;
+  padding: 10px;
+  word-spacing: 4px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.about-image {
+  grid-area: 2/ 2/ 3/ 3;
+  display: flex;
+  justify-content: center;
+}
+
+.my-pic {
+  border-radius: 50%;
+}
+
+.image-description {
+  text-decoration: none;
+  text-shadow: #333;
+  color: lightgoldenrodyellow;
+}
+
+@media(max-width: 900px) {
+  .about-text {
+    font-size: 20px;
+  }
+}
+
+@media(min-width:540px) and (max-width:770px) {
+  .about-title {
+    font-size: 17px;
+    margin-bottom: 10px;
+  }
+
+  .about-text {
+    display: flex;
+    width: 300px;
+    font-size: 13px;
+    font-size: 20px;
+  }
+
+  .my-pic {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media(min-width:120px) and (max-width: 539px) {
+  .about-me {
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+  }
+  
+  .about-title {
+    font-size: 15px;
+  }
+
+  .about-text {
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .my-pic {
+    width: 200px;
+    height: 200px;
+  }
+}
