@@ -13,6 +13,7 @@ h2 {
 .skills {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .btn-group {
